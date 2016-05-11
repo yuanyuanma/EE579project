@@ -13,6 +13,6 @@ For filament based on Devicejs, running:
 devicejs run controller.js
 
 For frequency-getting process, running:
-python detector.py hello1.wav
+python detector.py hello1.wav > ~/data.txt
 
 
