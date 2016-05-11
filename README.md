@@ -12,7 +12,7 @@ https://docs.google.com/document/d/1LjfR77bNGvBa6Bc_Si43qP2eCcGQ8aP18aKYvfWDz2E/
 For filament based on Devicejs, running:
 devicejs run controller.js
 
-For frequency-getting process, running:
+For frequency-getting process, running: (hello1.wav can be any wav-format music )
 python detector.py hello1.wav > ~/data.txt
 
 
