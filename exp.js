@@ -1,5 +1,5 @@
 var freq=0;
-//var amp=0;
+var amp=0;
 var fs = require('fs');
 var file = "data.txt";	
 
@@ -66,17 +66,4 @@ fs.readFile(file,'ascii',function(err,data){
 		}
 	}
 )
-
-/*dev$.selectByID('WDFL000012').set('hsl',{h:0.2,s:1,l:0.5});
-sleep(5500);
-dev$.selectByID('WDFL000012').set('hsl',{h:0.4,s:1,l:0.78});
-sleep(5500);
-dev$.selectByID('WDFL000012').set('hsl',{h:0.7,s:1,l:0.32});
-sleep(5500);
-dev$.selectByID('WDFL000012').set('hsl',{h:0.3,s:1,l:0.15});
-sleep(5500);
-dev$.selectByID('WDFL000012').set('hsl',{h:0.6,s:1,l:0.66});
-sleep(5500);
-dev$.selectByID('WDFL000012').set('hsl',{h:0.9,s:1,l:0.5});
-*/
 
